@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IMTRIP</title>
+  <!--css-->
+  <link rel='stylesheet' href='css/reset.css'>
+  <link rel='stylesheet' href='css/common.css'>
+  <link rel='stylesheet' href='css/index.css'>
+  <!--Import -->
+  <script type='text/javascript' src='js/jquery-1.12.3.min.js'></script>
+  <script type='text/javascript' src='js/common.js'></script>
+</head>
+
+<body>
+  <div id="wrapper" class="blue">
+    <header class="header">
+        <div class="util-top">
+            <div class="divbox">
+              <ul class="util-ul">
+                  <li class="util-li margin-13px-right"><a href="#" class="util-a"><img class="margin-8px-right" src="images/login.png">마이페이지</a></li>
+                  <li class="util-li margin-13px-right"><a href="#" class="util-a"><img class="margin-8px-right" src="images/sign.png">로그아웃</a></li>
+                  <li class="util-li"><a href="#" class="util-a">고객센터 및 문의</a></li>
+              </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="gnb-wrap">
+      <div class="gnb-area">
+        <div class="logo gnb-div">
+            <a href="index.html"><img src="images/mainLogo.png" alt="아임트랩" class="logo-img"></a>
+        </div>
+        <div class="gnb gnb-div">
+            <div class="main_area">
+                <ul class="main clearfix">
+                    <li class="main-li">
+                      <a href="#" class="main-a">해외패키지</a>
+                      <div class="sub-area">
+                        <ul class="sub">
+                            <li class="sub-li">
+                                <a href="#" class="sub-a">동남아시아</a>
+                                <ul class="depth">
+                                    <li class="depth-li-first"><a href="#" class="depth-a font-weight-bold">동남아시아 전체</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">다낭</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">하노이</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">보라카이</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">세부</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">보홀</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a-last">방콕</a></li>
+                                </ul>
+                            </li>
+                            <!--//1-->
+                            <li class="sub-li">
+                                <a href="#" class="sub-a">일본</a>
+                            </li>
+                            <!--//2-->
+                            <li class="sub-li">
+                                <a href="#" class="sub-a">홍콩/대만</a>
+                            </li>
+                            <!--//3-->
+                            <li class="sub-li">
+                                <a href="#" class="sub-a">유럽</a>
+                            </li>
+                            <!--//4-->
+                            <li class="sub-li">
+                                <a href="#" class="sub-a">중남미</a>
+                            </li>
+                            <!--//5-->
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="main-li"><a href="#" class="main-a">아임 트립</a></li>
+                    <li class="main-li"><a href="#" class="main-a">아임 스페셜</a></li>
+                    <li class="main-li"><a href="#" class="main-a">홈쇼핑 상품</a></li>
+                    <li class="main-li"><a href="#" class="main-a">단품판매</a></li>
+                </ul>
+            </div>
+            <!--//gnb 메뉴영역-->
+        </div>
+        <div class="util-menu gnb-div">
+          <ul class="util-ul float-left left">
+              <li class="util-li margin-30px-right"><a href="#" class="util-a">기획전</a></li>
+              <li class="util-li margin-30px-right"><a href="#" class="util-a">이벤트</a></li>
+              <li class="util-li"><a href="#" class="util-a">블로그</a></li>
+          </ul>
+          <ul class="util-ul float-left right">
+              <li class="util-li util-search margin-30px-right">
+                <a href="#" class="util-a find-btn"><img src="images/search.png" alt="찾기"></a>
+              </li>
+              <li class="util-li util-sitemap">
+                <a href="#" class="util-a site-btn"><img src="images/menu.png" alt="사이트맵"></a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="pop-search">
+      <div class="pop">
+        <div class="search-box">
+          <input type="search" class="inp_search" value="'다낭 초특가'치고 다낭 여행 싸게 가자!">
+          <button type="button" class="btn_up"></button>
+          <button type="button" class="btn_search"></button>
+        </div>
+        <div class="table-box">
+            <table>
+                <tr class="table-tr">
+                  <td class="table-td">자유여행 패키지</td>
+                  <td class="table-img"><a href="#"><img src="images/black_cancel.png" alt="삭제버튼"></a></td>
+                </tr>
+                <tr class="table-tr">
+                  <td class="table-td">패키지 자유여행</td>
+                  <td class="table-img"><a href="#"><img src="images/black_cancel.png" alt="삭제버튼"></a></td>
+                </tr>
+                <tr class="table-tr">
+                  <td class="table-td">자유여행은 없나요?</td>
+                  <td class="table-img"><a href="#"><img src="images/black_cancel.png" alt="삭제버튼"></a></td>
+                </tr>
+                <tr class="table-tr">
+                  <td class="table-td">다낭 특가</td>
+                  <td class="table-img"><a href="#"><img src="images/black_cancel.png" alt="삭제버튼"></a></td>
+                </tr>
+            </table>
+        </div>
+        <a href="#" class="search-remove">최근 검색기록 제거</a>
+      </div>
+    </div>
+
+    <div class="pop-sitemap">
+        <div class="sitemap">
+          <div class="map">
+            <p class="map-p">나를 찾는 여행, 아임트립 <span class="map-span">바로가기</span></p>
+            <div class="box">
+              <div class="box-title">
+                <p class="box-title-p">해외 지역별 여행상품</p>
+              </div>
+              <div class="box-div">
+                <ul class="box-ul">
+                  <li class="box-li-title">베트남</li>
+                  <li class="box-li"><a class="box-a" href="#">다낭 / 호이안</a></li>
+                  <li class="box-li"><a class="box-a" href="#">하노이 / 하롱베이</a></li>
+                  <li class="box-li"><a class="box-a" href="#">보라카이</a></li>
+                  <li class="box-li"><a class="box-a" href="#">세부 / 보홀</a></li>
+                  <li class="box-li"><a class="box-a" href="#">필리핀 / 마닐라</a></li>
+                  <li class="box-li"><a class="box-a" href="#">캄보디아 / 라오스 / 미얀마</a></li>
+                </ul>
+                <ul class="box-ul">
+                  <li class="box-li-title">필리핀</li>
+                  <li class="box-li"><a class="box-a" href="#">서유럽</a></li>
+                  <li class="box-li"><a class="box-a" href="#">동유럽 / 발칸</a></li>
+                  <li class="box-li"><a class="box-a" href="#">스페인 / 포르투칼 / 모로코</a></li>
+                  <li class="box-li"><a class="box-a" href="#">터키 / 그리스 / 두바이</a></li>
+                  <li class="box-li"><a class="box-a" href="#">북유럽 / 러시아</a></li>
+                  <li class="box-li"><a class="box-a" href="#">블라디보스톡</a></li>
+                  <li class="box-li"><a class="box-a" href="#">이집트 / 이스라엘 / 요르단</a></li>
+                </ul>
+                <ul class="box-ul">
+                  <li class="box-li-title">미주</li>
+                  <li class="box-li"><a class="box-a" href="#">마카오 / 후애</a></li>
+                  <li class="box-li"><a class="box-a" href="#">홍콩 / 마카오</a></li>
+                  <li class="box-li"><a class="box-a" href="#">홍콩</a></li>
+                </ul>
+                <ul class="box-ul">
+                  <li class="box-li-title">유럽</li>
+                  <li class="box-li"><a class="box-a" href="#">괌</a></li>
+                  <li class="box-li"><a class="box-a" href="#">사이판</a></li>
+                  <li class="box-li"><a class="box-a" href="#">팔라우</a></li>
+                </ul>
+                <ul class="box-ul">
+                  <li class="box-li-title">동남아시아</li>
+                  <li class="box-li"><a class="box-a" href="#">북경</a></li>
+                  <li class="box-li"><a class="box-a" href="#">상해 / 남경</a></li>
+                  <li class="box-li"><a class="box-a" href="#">청도</a></li>
+                  <li class="box-li"><a class="box-a" href="#">장가계</a></li>
+                  <li class="box-li"><a class="box-a" href="#">하얼빈</a></li>
+                  <li class="box-li"><a class="box-a" href="#">태행산 / 황산</a></li>
+                </ul>
+                <ul class="box-ul">
+                  <li class="box-li-title">일본</li>
+                  <li class="box-li"><a class="box-a" href="#">훗카이도 / 동북</a></li>
+                  <li class="box-li"><a class="box-a" href="#">동경 / 혼슈</a></li>
+                  <li class="box-li"><a class="box-a" href="#">오사카 / 시코쿠</a></li>
+                  <li class="box-li"><a class="box-a" href="#">큐슈</a></li>
+                  <li class="box-li"><a class="box-a" href="#">오키나와</a></li>
+                  <li class="box-li"><a class="box-a" href="#">대마도</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="box">
+              <div class="box-title">
+                <p class="box-title-p">프로모션</p>
+              </div>
+              <ul class="box-ul-2">
+                <li class="box-li-title"><a class="box-a" href="#">기획전</a></li>
+                <li class="box-li-title"><a class="box-a" href="#">이벤트</a></li>
+                <li class="box-li-title"><a class="box-a" href="#">블로그</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="pop-bg"></div>
+
+    <div class="container">
+
+      <section>
+        <div class="location-area width1200">
+                <div class="center divbox">
+                    <ul class="ul">
+                        <li class="location-li"><a href="index.html" class="location-a-first"><img src="images/homeIcon.png" class="location-img">Main</a></li>
+                        <li class="location-li location-line"><img src="images/location_point.png"></li>
+                        <li class="location-li"><a href="#" class="location-a-first">해외패키지</a></li>
+                        <li class="location-li location-line"><img src="images/location_point.png"></li>
+                        <li class="location-li"><a href="#" class="location-a-last font-weight-bold">검색결과</a></li>
+                    </ul>
+                </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="contents width1200">
+
+          <div class="searchlist">
+            <p class="p">다낭/호이안</p>
+            <p class="p-last"><span class="span">53</span> 개의 다낭/호이안 상품이 준비되어 있습니다.</p>
+          </div>
+
+        </div>
+      </section>
+      <!--검색 영역-->
+
+      <section>
+        <div class="details width1200">
+
+          <div class="left">
+            <div class="filter-box1">
+              <p class="title-p">상세 필터 적용</p>
+              <div class="txt-list">
+                <div class="search">
+                     <span class="span">상품 상세 검색</span><img src="images/search_gray.png" alt="돋보기" class="img">
+                </div>
+                <ul class="ul">
+                  <li class="li li-border"><a href="#" class="a">저 비용 항공</a></li>
+                  <li class="li li-border"><a href="#" class="a">아시아나 / 대한항공</a></li>
+                  <li class="li li-border"><a href="#" class="a">초특급 5성급 리조트</a></li>
+                  <li class="li"><a href="#" class="a">MD 강력추천 + 특전모음</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--//1-->
+            <div class="filter-box filter-box2">
+              <div class="txt-box">
+                <a href="#" class="a">
+                  출발 일정
+                  <img class="float-right img" src="images/black_triangle_btn.png" alt="삼각형버튼">
+                </a>
+              </div>
+              <div class="div1">
+                   <span class="span">출발월 전체</span><img src="images/gray_bottom_btn.png" alt="아래버튼" class="img">
+              </div>
+              <div class="div2">
+                   <img src="images/calendar.png" alt="달력아이콘" class="img">
+              </div>
+              <div class="txt-list">
+                   <ul class="ul">
+                     <li><a href="#" class="a">월</a></li>
+                     <li><a href="#" class="a">화</a></li>
+                     <li><a href="#" class="a">수</a></li>
+                     <li><a href="#" class="a">목</a></li>
+                     <li><a href="#" class="a">금</a></li>
+                     <li><a href="#" class="a">토</a></li>
+                     <li><a href="#" class="a">일</a></li>
+                   </ul>
+              </div>
+            </div>
+            <!--//2-->
+            <div class="filter-box filter-box3">
+              <div class="txt-box">
+                <a href="#" class="a">
+                  출발 시간
+                  <img class="float-right img" src="images/black_triangle_btn.png" alt="삼각형버튼">
+                </a>
+              </div>
+              <div class="txt-list">
+                <ul class="ul">
+                  <li class="li"><a href="#" class="a"><span class="span">이른아침</span>am12:00 - am 04:59</a></li>
+                  <li class="li"><a href="#" class="a"><span class="span">아침</span>am05:00 - am 11:59</a></li>
+                  <li class="li"><a href="#" class="a"><span class="span">오후</span>pm12:00 - pm 05:59</a></li>
+                  <li class="li-last"><a href="#" class="a"><span class="span">저녁</span>pm06:00 - pm 11:59</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--//3-->
+            <div class="filter-box filter-box4">
+              <div class="txt-box">
+                <a href="#" class="a">
+                  출발 공항
+                  <img class="float-right img" src="images/black_triangle_btn.png" alt="삼각형버튼">
+                </a>
+              </div>
+              <div class="txt-list">
+                <ul class="ul ul-margin">
+                  <li class="li li-border"><a href="#" class="a">인천</a></li>
+                  <li class="li"><a href="#" class="a">부산</a></li>
+                </ul>
+                <ul class="ul ul-margin">
+                  <li class="li li-border"><a href="#" class="a">대구</a></li>
+                  <li class="li"><a href="#" class="a">김해</a></li>
+                </ul>
+                <ul class="ul">
+                  <li class="li li-border"><a href="#" class="a">김포</a></li>
+                  <li class="li"><a href="#" class="a">청주</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--//4-->
+            <div class="filter-box filter-box5">
+              <div class="txt-box">
+                <a href="#" class="a">
+                  여행 기간
+                  <img class="float-right img" src="images/black_triangle_btn.png" alt="삼각형버튼">
+                </a>
+              </div>
+              <div class="txt-list">
+                <ul class="ul ul-margin">
+                  <li class="li li-border"><a href="#" class="a">3일 이하</a></li>
+                  <li class="li"><a href="#" class="a">4일</a></li>
+                </ul>
+                <ul class="ul ul-margin">
+                  <li class="li li-border"><a href="#" class="a">5일</a></li>
+                  <li class="li"><a href="#" class="a">6일</a></li>
+                </ul>
+                <ul class="ul">
+                  <li class="li li-border"><a href="#" class="a">7일</a></li>
+                  <li class="li"><a href="#" class="a">8일 이상</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--//5-->
+            <div class="filter-box filter-box6">
+              <div class="txt-box">
+                <a href="#" class="a">
+                  이용 항공
+                  <img class="float-right img" src="images/black_triangle_btn.png" alt="삼각형버튼">
+                </a>
+              </div>
+              <div class="txt-list">
+                <ul class="ul">
+                  <li class="li"><a href="#" class="a"><img src="images/jin_air.png" alt="진에어" class="img">진에어</a></li>
+                  <li class="li"><a href="#" class="a"><img src="images/qatar_air.png" alt="카타르항공" class="img">카타르항공</a></li>
+                  <li class="li"><a href="#" class="a"><img src="images/jeju_air.png" alt="제주에어" class="img">제주에어</a></li>
+                  <li><a href="#" class="a"><img src="images/netherlands_air.png" alt="네덜란드항공" class="img">네덜란드항공</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--//6-->
+            <div class="filter-box7"></div>
+          </div>
+          <div class="right">
+            <div class="tab-area">
+              <div class="tab-box">
+                <div class="tab">
+                  <ul class="ul">
+                    <li class="tab-li tab-li-0"><a href="#" class="tab-a">예약 가능 상품</a></li>
+                    <li class="tab-li tab-li-1">
+                      <select class="select" name="price">
+                        <option value="low" selected>낮은 가격순</option>
+                      </select>
+                    </li>
+                    <li class="tab-li tab-li-2"><a href="#" class="tab-a"><img src="images/blue_cardlist_icon.png" alt="카드목록리스트" class="img"></a></li>
+                    <li class="tab-li tab-li-3"><a href="#" class="tab-a"><img src="images/gray_list_icon.png" alt="목록리스티" class="img"></a></li>
+                  </ul>
+                </div>
+
+                <div class="product-masterlist">
+                  <div class="divbox">
+                    <div class="div margin-20px-right">
+                      <ul class="ul">
+                        <li class="li li-img"><img src="images/place1.jpg" alt="상품이미지"></li>
+                        <li class="li">
+                          <span class="span">CPP1001203</span>
+                          <p class="p-first">상해 / 항주 / 주가각+서커스 / 발마사..</p>
+                        </li>
+                      </ul>
+                      <ul class="ul ul-txt">
+                        <li class="li-txt">출발기간</li>
+                        <li class="li-txt"><span class="line"></span></li>
+                        <li class="li-txt">2020. 02. 05 - 2020. 05. 03.</li>
+                      </ul>
+                      <ul class="ul ul-last">
+                        <li class="li"><span class="span-last">299,000 원 -</span></li>
+                        <li class="li"><a href="#" class="li-a-on">출발일 보기<img src="images/white_triangle.png" alt="위삼각형" class="img"></a></li>
+                      </ul>
+                    </div>
+                    <!--//1-->
+                    <div class="div margin-20px-right">
+                      <ul class="ul">
+                        <li class="li li-img"><img src="images/place1.jpg" alt="상품이미지"></li>
+                        <li class="li">
+                          <span class="span">CPP1001203</span>
+                          <p class="p-first">상해 / 항주 / 주가각+서커스 / 발마사..</p>
+                        </li>
+                      </ul>
+                      <ul class="ul ul-txt">
+                        <li class="li-txt">출발기간</li>
+                        <li class="li-txt"><span class="line"></span></li>
+                        <li class="li-txt">2020. 02. 05 - 2020. 05. 03.</li>
+                      </ul>
+                      <ul class="ul ul-last">
+                        <li class="li"><span class="span-last">299,000 원 -</span></li>
+                        <li class="li"><a href="#" class="li-a">출발일 보기<img src="images/black_triangle_bottom.png" alt="아래삼각형" class="img"></a></li>
+                      </ul>
+                    </div>
+                    <!--//2-->
+                    <div class="div">
+                      <ul class="ul">
+                        <li class="li li-img"><img src="images/place1.jpg" alt="상품이미지"></li>
+                        <li class="li">
+                          <span class="span">CPP1001203</span>
+                          <p class="p-first">상해 / 항주 / 주가각+서커스 / 발마사..</p>
+                        </li>
+                      </ul>
+                      <ul class="ul ul-txt">
+                        <li class="li-txt">출발기간</li>
+                        <li class="li-txt"><span class="line"></span></li>
+                        <li class="li-txt">2020. 02. 05 - 2020. 05. 03.</li>
+                      </ul>
+                      <ul class="ul ul-last">
+                        <li class="li"><span class="span-last">299,000 원 -</span></li>
+                        <li class="li"><a href="#" class="li-a">출발일 보기<img src="images/black_triangle_bottom.png" alt="아래삼각형" class="img"></a></li>
+                      </ul>
+                    </div>
+                    <!--//3-->
+                  </div>
+                  <!--//divbox1-->
+                  <div class="calendar-area">
+                    <a href="#"><img src="images/black_cancel20.png" alt="닫기" class="cancel"></a>
+                    <div class="div">
+                      <div class="top">
+                        <div class="top-left">
+                          <span class="span">CPP1001203</span>
+                          <p class="p-first">상해 / 항주 / 주가각+서커스 / 발마사지 [상해가 제일좋아] 4박 5일</p>
+                          <p class="p-last">바나힐, 골든브릿지, 후에유적지, 다낭시내관광, 호이안구시가지, 스톤마사지</p>
+                          <ul class="ul-1">
+                            <li class="li">항공</li>
+                            <li class="li-1"><span class="line"></span></li>
+                            <li class="li"><img src="images/airports_icon.png" alt="아시아나항공" class="img">아시아나 항공</li>
+                            <li class="li"><img src="images/airports_icon.png" alt="아시아나항공" class="img">아시아나 항공</li>
+                            <li class="li"><img src="images/airports_icon.png" alt="아시아나항공" class="img">아시아나 항공</li>
+                          </ul>
+                          <ul class="ul-2">
+                            <li class="li">출발기간</li>
+                            <li class="li"><span class="line"></span></li>
+                            <li class="li"><b>2020. 02. 05 - 2020. 05. 03.</b></li>
+                          </ul>
+                        </div>
+                        <div class="top-right">
+                          <p class="p">299,000 원 - 699,000 원</p>
+                        </div>
+                      </div>
+                      <div class="bottom">
+                        <div class="calendar">
+                          <div class="page">
+                            <div class="divbox">
+                              <ul class="yy-mm">
+                                <li><a href="#"><img src="images/gray_triangle_prev.png" alt="이전"></a></li>
+                                <li class="li">2020. 02</li>
+                                <li><a href="#"><img src="images/black_triangle_next.png" alt="다음"></a></li>
+                              </ul>
+                            </div>
+                            <div class="day">
+                              <span class="span red-txt">S</span>
+                              <span class="span black-txt">M</span>
+                              <span class="span black-txt">T</span>
+                              <span class="span black-txt">W</span>
+                              <span class="span black-txt">T</span>
+                              <span class="span black-txt">F</span>
+                              <span class="span blue-txt">S</span>
+                            </div>
+                            <div class="date">
+                              <ul class="dd">
+                                <li class="li"></li>
+                                <li class="li"></li>
+                                <li class="li"></li>
+                                <li class="li"></li>
+                                <li class="li"></li>
+                                <li class="li"></li>
+                                <li class="li-last gray-bg">1</li>
+                              </ul>
+                              <ul class="dd">
+                                <li class="li gray-bg">2</li>
+                                <li class="li gray-bg">3</li>
+                                <li class="li"><a href="#" class="a black">4</a></li>
+                                <li class="li"><a href="#" class="a black">5</a></li>
+                                <li class="li"><a href="#" class="a black">6</a></li>
+                                <li class="li"><a href="#" class="a blue">7</a></li>
+                                <li class="li li-last"><a href="#" class="a blue">8</a></li>
+                              </ul>
+                              <ul class="dd">
+                                <li class="li"><a href="#" class="a orange">9</a></li>
+                                <li class="li"><a href="#" class="a orange">10</a></li>
+                                <li class="li"><a href="#" class="a orange">11</a></li>
+                                <li class="li"><a href="#" class="a orange">12</a></li>
+                                <li class="li"><a href="#" class="a orange">13</a></li>
+                                <li class="li"><a href="#" class="a blue">14</a></li>
+                                <li class="li li-last"><a href="#" class="a blue">15</a></li>
+                              </ul>
+                              <ul class="dd">
+                                <li class="li"><a href="#" class="a gray">16</a></li>
+                                <li class="li"><a href="#" class="a orange">17</a></li>
+                                <li class="li"><a href="#" class="a blue">18</a></li>
+                                <li class="li"><a href="#" class="a blue">19</a></li>
+                                <li class="li"><a href="#" class="a blue">20</a></li>
+                                <li class="li"><a href="#" class="a blue">21</a></li>
+                                <li class="li li-last"><a href="#" class="a blue">22</a></li>
+                              </ul>
+                              <ul class="dd">
+                                <li class="li"><a href="#" class="a gray">23</a></li>
+                                <li class="li"><a href="#" class="a orange">24</a></li>
+                                <li class="li"><a href="#" class="a blue">25</a></li>
+                                <li class="li"><a href="#" class="a blue">26</a></li>
+                                <li class="li"><a href="#" class="a blue">27</a></li>
+                                <li class="li"></li>
+                                <li class="li-last"></li>
+                              </ul>
+                            </div>
+
+                          </div>
+                          <div class="txt-box">
+                            <ul class="ul">
+                              <li class="li"><span class="circle blue"></span>예약가능</li>
+                              <li class="li margin-10px-left"><span class="circle orange"></span>예약대기</li>
+                              <li class="li margin-10px-left"><span class="circle gray"></span>예약마감</li>
+                              <li class="li margin-10px-left"><span class="circle black"></span>출발확정</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="calendar-list">
+                          <ul class="title">
+                            <li class="li li-1">출발일</li>
+                            <li class="li li-2">항공</li>
+                            <li class="li li-3">가격<img src="images/black_triangle_btn.png" alt="삼각형버튼" class="img"></li>
+                            <li class="li li-4">예약상태</li>
+                          </ul>
+                          <div class="list-area">
+                            <div class="list list-off">
+                              <ul class="ul">
+                                <li class="li li-1">02월 04일 (화)</li>
+                                <li class="li li-2">KE 대한항공</li>
+                                <li class="li li-3"><b>299,000</b></li>
+                                <li><a href="#" class="btn blue-btn">가능</a></li>
+                              </ul>
+                            </div>
+                            <div class="list list-off">
+                              <ul class="ul">
+                                <li class="li li-1">02월 04일 (화)</li>
+                                <li class="li li-2">KE 가루다 항..</li>
+                                <li class="li li-3"><b>399,000</b></li>
+                                <li><a href="#" class="btn orange-btn">대기</a></li>
+                              </ul>
+                            </div>
+                            <div class="list list-on">
+                              <ul class="ul">
+                                <li class="li li-1">02월 04일 (화)</li>
+                                <li class="li li-2">KE 아시아나</li>
+                                <li class="li li-3"><b>699,000</b></li>
+                                <li><a href="#" class="btn orange-btn">대기</a></li>
+                              </ul>
+                            </div>
+                            <div class="list list-off">
+                              <ul class="ul">
+                                <li class="li li-1">02월 04일 (화)</li>
+                                <li class="li li-2">KE 제주에어</li>
+                                <li class="li li-3"><b>699,000</b></li>
+                                <li><a href="#" class="btn gray-btn">마감</a></li>
+                              </ul>
+                            </div>
+                            <div class="list list-off">
+                              <ul class="ul">
+                                <li class="li li-1">02월 04일 (화)</li>
+                                <li class="li li-2">KE 비엣젯</li>
+                                <li class="li li-3"><b>699,000</b></li>
+                                <li><a href="#" class="btn gray-btn">마감</a></li>
+                              </ul>
+                            </div>
+                            <div class="list list-off">
+                              <ul class="ul">
+                                <li class="li li-1">02월 04일 (화)</li>
+                                <li class="li li-2">KE 대한항공</li>
+                                <li class="li li-3"><b>699,000</b></li>
+                                <li><a href="#" class="btn gray-btn">마감</a></li>
+                              </ul>
+                            </div>
+                            <div class="list list-off">
+                              <ul class="ul">
+                                <li class="li li-1">02월 04일 (화)</li>
+                                <li class="li li-2">KE 대한항공</li>
+                                <li class="li li-3"><b>699,000</b></li>
+                                <li><a href="#" class="btn black-btn">확정</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--//calendar-area-->
+                  <div class="divbox">
+                    <div class="div margin-20px-right">
+                      <ul class="ul">
+                        <li class="li li-img"><img src="images/place1.jpg" alt="상품이미지"></li>
+                        <li class="li">
+                          <span class="span">CPP1001203</span>
+                          <p class="p-first">상해 / 항주 / 주가각+서커스 / 발마사..</p>
+                        </li>
+                      </ul>
+                      <ul class="ul ul-txt">
+                        <li class="li-txt">출발기간</li>
+                        <li class="li-txt"><span class="line"></span></li>
+                        <li class="li-txt">2020. 02. 05 - 2020. 05. 03.</li>
+                      </ul>
+                      <ul class="ul ul-last">
+                        <li class="li"><span class="span-last">299,000 원 -</span></li>
+                        <li class="li"><a href="#" class="li-a">출발일 보기<img src="images/black_triangle_bottom.png" alt="아래삼각형" class="img"></a></li>
+                      </ul>
+                    </div>
+                    <!--//4-->
+                    <div class="div margin-20px-right">
+                      <ul class="ul">
+                        <li class="li li-img"><img src="images/place1.jpg" alt="상품이미지"></li>
+                        <li class="li">
+                          <span class="span">CPP1001203</span>
+                          <p class="p-first">상해 / 항주 / 주가각+서커스 / 발마사..</p>
+                        </li>
+                      </ul>
+                      <ul class="ul ul-txt">
+                        <li class="li-txt">출발기간</li>
+                        <li class="li-txt"><span class="line"></span></li>
+                        <li class="li-txt">2020. 02. 05 - 2020. 05. 03.</li>
+                      </ul>
+                      <ul class="ul ul-last">
+                        <li class="li"><span class="span-last">299,000 원 -</span></li>
+                        <li class="li"><a href="#" class="li-a">출발일 보기<img src="images/black_triangle_bottom.png" alt="아래삼각형" class="img"></a></li>
+                      </ul>
+                    </div>
+                    <!--//5-->
+                    <div class="div">
+                      <ul class="ul">
+                        <li class="li li-img"><img src="images/place1.jpg" alt="상품이미지"></li>
+                        <li class="li">
+                          <span class="span">CPP1001203</span>
+                          <p class="p-first">상해 / 항주 / 주가각+서커스 / 발마사..</p>
+                        </li>
+                      </ul>
+                      <ul class="ul ul-txt">
+                        <li class="li-txt">출발기간</li>
+                        <li class="li-txt"><span class="line"></span></li>
+                        <li class="li-txt">2020. 02. 05 - 2020. 05. 03.</li>
+                      </ul>
+                      <ul class="ul ul-last">
+                        <li class="li"><span class="span-last">299,000 원 -</span></li>
+                        <li class="li"><a href="#" class="li-a">출발일 보기<img src="images/black_triangle_bottom.png" alt="아래삼각형" class="img"></a></li>
+                      </ul>
+                    </div>
+                    <!--//6-->
+                  </div>
+                  <!--//divbox2-->
+                  <div class="divbox">
+                    <div class="div margin-20px-right">
+                      <ul class="ul">
+                        <li class="li li-img"><img src="images/place1.jpg" alt="상품이미지"></li>
+                        <li class="li">
+                          <span class="span">CPP1001203</span>
+                          <p class="p-first">상해 / 항주 / 주가각+서커스 / 발마사..</p>
+                        </li>
+                      </ul>
+                      <ul class="ul ul-txt">
+                        <li class="li-txt">출발기간</li>
+                        <li class="li-txt"><span class="line"></span></li>
+                        <li class="li-txt">2020. 02. 05 - 2020. 05. 03.</li>
+                      </ul>
+                      <ul class="ul ul-last">
+                        <li class="li"><span class="span-last">299,000 원 -</span></li>
+                        <li class="li"><a href="#" class="li-a">출발일 보기<img src="images/black_triangle_bottom.png" alt="아래삼각형" class="img"></a></li>
+                      </ul>
+                    </div>
+                    <!--//7-->
+                    <div class="div margin-20px-right">
+                      <ul class="ul">
+                        <li class="li li-img"><img src="images/place1.jpg" alt="상품이미지"></li>
+                        <li class="li">
+                          <span class="span">CPP1001203</span>
+                          <p class="p-first">상해 / 항주 / 주가각+서커스 / 발마사..</p>
+                        </li>
+                      </ul>
+                      <ul class="ul ul-txt">
+                        <li class="li-txt">출발기간</li>
+                        <li class="li-txt"><span class="line"></span></li>
+                        <li class="li-txt">2020. 02. 05 - 2020. 05. 03.</li>
+                      </ul>
+                      <ul class="ul ul-last">
+                        <li class="li"><span class="span-last">299,000 원 -</span></li>
+                        <li class="li"><a href="#" class="li-a">출발일 보기<img src="images/black_triangle_bottom.png" alt="아래삼각형" class="img"></a></li>
+                      </ul>
+                    </div>
+                    <!--//8-->
+                    <div class="div">
+                      <ul class="ul">
+                        <li class="li li-img"><img src="images/place1.jpg" alt="상품이미지"></li>
+                        <li class="li">
+                          <span class="span">CPP1001203</span>
+                          <p class="p-first">상해 / 항주 / 주가각+서커스 / 발마사..</p>
+                        </li>
+                      </ul>
+                      <ul class="ul ul-txt">
+                        <li class="li-txt">출발기간</li>
+                        <li class="li-txt"><span class="line"></span></li>
+                        <li class="li-txt">2020. 02. 05 - 2020. 05. 03.</li>
+                      </ul>
+                      <ul class="ul ul-last">
+                        <li class="li"><span class="span-last">299,000 원 -</span></li>
+                        <li class="li"><a href="#" class="li-a">출발일 보기<img src="images/black_triangle_bottom.png" alt="아래삼각형" class="img"></a></li>
+                      </ul>
+                    </div>
+                    <!--//9-->
+                  </div>
+                  <!--//divbox3-->
+                </div>
+
+                <div class="page">
+                  <ul class="ul">
+                    <li class="li"><a href="#"><img src="images/black_arrow_prev.png" alt="이전"></a></li>
+                    <li class="li"><a href="#" class="a">1</a></li>
+                    <li class="li"><a href="#" class="a-on1">2</a></li>
+                    <li class="li"><a href="#" class="a">3</a></li>
+                    <li class="li"><a href="#" class="a">4</a></li>
+                    <li class="li"><a href="#" class="a">5</a></li>
+                    <li class="li"><a href="#"><img src="images/black_arrow_next.png" alt="이전"></a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+      <!--검색 결과-->
+
+    </div>
+
+    <footer>
+      <div class="inner">
+        <div class="address">
+          <p class="address-p">
+            서울특별시 중구 태평로 2가 55 (우)042598 Tel. 1544. 3336 reservation@imtrip.co.kr<br>
+            통신판매신고번호 중구 0623호 (주)아임트립 대표이사 음두경 사업자등록번호 102-83-94821, (주)아임트립 관리자 리브햇 사업자등록번호 : 583-84-01183
+          </p>
+        </div>
+        <ul class="footer-menu">
+          <li class="footer-menu-li"><a href="#" class="menu-a-first footer-menu-a">Customer Center</a></li>
+          <li class="footer-menu-li footer-menu-before"><a href="#" class="menu-a footer-menu-a">개인정보처리방침</a></li>
+          <li class="footer-menu-li footer-menu-before"><a href="#" class="menu-a footer-menu-a">이용약관</a></li>
+          <li class="footer-menu-li footer-menu-before"><a href="#" class="menu-a footer-menu-a">이메일 무단 수집금지</a></li>
+          <li class="footer-menu-li"><a href="#" class="menu-a-last footer-menu-a">Family Site</a></li>
+        </ul>
+        <p class="copy">Copylight 2019 'imtrip Co. All right reserved.</p>
+      </div>
+    </footer>
+
+
+  </div>
+
+</body>
+</html>

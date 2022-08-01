@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IMTRIP</title>
+  <!--css-->
+  <link rel='stylesheet' href='css/reset.css'>
+  <link rel='stylesheet' href='css/common.css'>
+  <link rel='stylesheet' href='css/index.css'>
+  <!--Import -->
+  <script type='text/javascript' src='js/jquery-1.12.3.min.js'></script>
+  <script type='text/javascript' src='js/common.js'></script>
+</head>
+
+<body>
+  <div id="wrapper" class="blue">
+    <header class="header">
+        <div class="util-top">
+            <div class="divbox">
+              <ul class="util-ul">
+                  <li class="util-li margin-13px-right"><a href="#" class="util-a"><img class="margin-8px-right" src="images/login.png">마이페이지</a></li>
+                  <li class="util-li margin-13px-right"><a href="#" class="util-a"><img class="margin-8px-right" src="images/sign.png">로그아웃</a></li>
+                  <li class="util-li"><a href="#" class="util-a">고객센터 및 문의</a></li>
+              </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="gnb-wrap">
+      <div class="gnb-area">
+        <div class="logo gnb-div">
+            <a href="index.html"><img src="images/mainLogo.png" alt="아임트랩" class="logo-img"></a>
+        </div>
+        <div class="gnb gnb-div">
+            <div class="main_area">
+                <ul class="main clearfix">
+                    <li class="main-li">
+                      <a href="#" class="main-a">해외패키지</a>
+                      <div class="sub-area">
+                        <ul class="sub">
+                            <li class="sub-li">
+                                <a href="#" class="sub-a">동남아시아</a>
+                                <ul class="depth">
+                                    <li class="depth-li-first"><a href="#" class="depth-a font-weight-bold">동남아시아 전체</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">다낭</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">하노이</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">보라카이</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">세부</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">보홀</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a-last">방콕</a></li>
+                                </ul>
+                            </li>
+                            <!--//1-->
+                            <li class="sub-li">
+                                <a href="#" class="sub-a">일본</a>
+                                <ul class="depth">
+                                    <li class="depth-li-first"><a href="#" class="depth-a font-weight-bold">일본 전체</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">도쿄</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">후쿠오카</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">오키나와</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">히로시마</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">교토</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a-last">나고야</a></li>
+                                </ul>
+                            </li>
+                            <!--//2-->
+                            <li class="sub-li">
+                                <a href="#" class="sub-a">홍콩/대만</a>
+                                <ul class="depth">
+                                    <li class="depth-li-first"><a href="#" class="depth-a font-weight-bold">홍콩/대만 전체</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">홍콩</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">대만</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">홍콩</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">대만</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">홍콩</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a-last">대만</a></li>
+                                </ul>
+                            </li>
+                            <!--//3-->
+                            <li class="sub-li">
+                                <a href="#" class="sub-a">유럽</a>
+                                <ul class="depth">
+                                    <li class="depth-li-first"><a href="#" class="depth-a font-weight-bold">유럽 전체</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">런던</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">파리</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">로마</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">프라하</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">베를린</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a-last">바르셀로나</a></li>
+                                </ul>
+                            </li>
+                            <!--//4-->
+                            <li class="sub-li">
+                                <a href="#" class="sub-a">중남미</a>
+                                <ul class="depth">
+                                    <li class="depth-li-first"><a href="#" class="depth-a font-weight-bold">중남미 전체</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">페루</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">칠레</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">브라질</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">멕시코</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a">볼리비아</a></li>
+                                    <li class="depth-li"><a href="#" class="depth-a-last">아르헨티나</a></li>
+                                </ul>
+                            </li>
+                            <!--//5-->
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="main-li"><a href="#" class="main-a">아임 트립</a></li>
+                    <li class="main-li"><a href="#" class="main-a">아임 스페셜</a></li>
+                    <li class="main-li"><a href="#" class="main-a">홈쇼핑 상품</a></li>
+                    <li class="main-li"><a href="#" class="main-a">단품판매</a></li>
+                </ul>
+            </div>
+            <!--//gnb 메뉴영역-->
+        </div>
+        <div class="util-menu gnb-div">
+          <ul class="util-ul float-left left">
+              <li class="util-li margin-30px-right"><a href="#" class="util-a">기획전</a></li>
+              <li class="util-li margin-30px-right"><a href="#" class="util-a">이벤트</a></li>
+              <li class="util-li"><a href="#" class="util-a">블로그</a></li>
+          </ul>
+          <ul class="util-ul float-left right">
+              <li class="util-li util-search margin-30px-right">
+                <a href="#" class="util-a find-btn"><img src="images/search.png" alt="찾기"></a>
+              </li>
+              <li class="util-li util-sitemap">
+                <a href="#" class="util-a site-btn"><img src="images/menu.png" alt="사이트맵"></a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="pop-search">
+      <div class="pop">
+        <div class="search-box">
+          <input type="search" class="inp_search" value="'다낭 초특가'치고 다낭 여행 싸게 가자!">
+          <button type="button" class="btn_up"></button>
+          <button type="button" class="btn_search"></button>
+        </div>
+        <div class="table-box">
+            <table>
+                <tr class="table-tr">
+                  <td class="table-td">자유여행 패키지</td>
+                  <td class="table-img"><a href="#"><img src="images/black_cancel.png" alt="삭제버튼"></a></td>
+                </tr>
+                <tr class="table-tr">
+                  <td class="table-td">패키지 자유여행</td>
+                  <td class="table-img"><a href="#"><img src="images/black_cancel.png" alt="삭제버튼"></a></td>
+                </tr>
+                <tr class="table-tr">
+                  <td class="table-td">자유여행은 없나요?</td>
+                  <td class="table-img"><a href="#"><img src="images/black_cancel.png" alt="삭제버튼"></a></td>
+                </tr>
+                <tr class="table-tr">
+                  <td class="table-td">다낭 특가</td>
+                  <td class="table-img"><a href="#"><img src="images/black_cancel.png" alt="삭제버튼"></a></td>
+                </tr>
+            </table>
+        </div>
+        <a href="#" class="search-remove">최근 검색기록 제거</a>
+      </div>
+    </div>
+
+    <div class="pop-sitemap">
+        <div class="sitemap">
+          <div class="map">
+            <p class="map-p">나를 찾는 여행, 아임트립 <span class="map-span">바로가기</span></p>
+            <div class="box">
+              <div class="box-title">
+                <p class="box-title-p">해외 지역별 여행상품</p>
+              </div>
+              <div class="box-div">
+                <ul class="box-ul">
+                  <li class="box-li-title">베트남</li>
+                  <li class="box-li"><a class="box-a" href="#">다낭 / 호이안</a></li>
+                  <li class="box-li"><a class="box-a" href="#">하노이 / 하롱베이</a></li>
+                  <li class="box-li"><a class="box-a" href="#">보라카이</a></li>
+                  <li class="box-li"><a class="box-a" href="#">세부 / 보홀</a></li>
+                  <li class="box-li"><a class="box-a" href="#">필리핀 / 마닐라</a></li>
+                  <li class="box-li"><a class="box-a" href="#">캄보디아 / 라오스 / 미얀마</a></li>
+                </ul>
+                <ul class="box-ul">
+                  <li class="box-li-title">필리핀</li>
+                  <li class="box-li"><a class="box-a" href="#">서유럽</a></li>
+                  <li class="box-li"><a class="box-a" href="#">동유럽 / 발칸</a></li>
+                  <li class="box-li"><a class="box-a" href="#">스페인 / 포르투칼 / 모로코</a></li>
+                  <li class="box-li"><a class="box-a" href="#">터키 / 그리스 / 두바이</a></li>
+                  <li class="box-li"><a class="box-a" href="#">북유럽 / 러시아</a></li>
+                  <li class="box-li"><a class="box-a" href="#">블라디보스톡</a></li>
+                  <li class="box-li"><a class="box-a" href="#">이집트 / 이스라엘 / 요르단</a></li>
+                </ul>
+                <ul class="box-ul">
+                  <li class="box-li-title">미주</li>
+                  <li class="box-li"><a class="box-a" href="#">마카오 / 후애</a></li>
+                  <li class="box-li"><a class="box-a" href="#">홍콩 / 마카오</a></li>
+                  <li class="box-li"><a class="box-a" href="#">홍콩</a></li>
+                </ul>
+                <ul class="box-ul">
+                  <li class="box-li-title">유럽</li>
+                  <li class="box-li"><a class="box-a" href="#">괌</a></li>
+                  <li class="box-li"><a class="box-a" href="#">사이판</a></li>
+                  <li class="box-li"><a class="box-a" href="#">팔라우</a></li>
+                </ul>
+                <ul class="box-ul">
+                  <li class="box-li-title">동남아시아</li>
+                  <li class="box-li"><a class="box-a" href="#">북경</a></li>
+                  <li class="box-li"><a class="box-a" href="#">상해 / 남경</a></li>
+                  <li class="box-li"><a class="box-a" href="#">청도</a></li>
+                  <li class="box-li"><a class="box-a" href="#">장가계</a></li>
+                  <li class="box-li"><a class="box-a" href="#">하얼빈</a></li>
+                  <li class="box-li"><a class="box-a" href="#">태행산 / 황산</a></li>
+                </ul>
+                <ul class="box-ul">
+                  <li class="box-li-title">일본</li>
+                  <li class="box-li"><a class="box-a" href="#">훗카이도 / 동북</a></li>
+                  <li class="box-li"><a class="box-a" href="#">동경 / 혼슈</a></li>
+                  <li class="box-li"><a class="box-a" href="#">오사카 / 시코쿠</a></li>
+                  <li class="box-li"><a class="box-a" href="#">큐슈</a></li>
+                  <li class="box-li"><a class="box-a" href="#">오키나와</a></li>
+                  <li class="box-li"><a class="box-a" href="#">대마도</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="box">
+              <div class="box-title">
+                <p class="box-title-p">프로모션</p>
+              </div>
+              <ul class="box-ul-2">
+                <li class="box-li-title"><a class="box-a" href="#">기획전</a></li>
+                <li class="box-li-title"><a class="box-a" href="#">이벤트</a></li>
+                <li class="box-li-title"><a class="box-a" href="#">블로그</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="pop-bg"></div>
+
+    <div class="margin-100px-bottom">
+
+      <div class="container">
+        <section class="banner-area">
+              <div class="banner">
+                  <!--<h2> Single Item</h2>-->
+                  <Slider {...settings}>
+                    <div class="banner1 banner-box">
+                      <div class="banner-txt">
+                        <p class="banner-p">하얀 모래 맑은 바다에 닿다<br>나를 부르는 <span class="banner-span">나트랑</span></p>
+                      </div>
+                      <div class="banner-btndiv"><a href="#" class="banner-btn">기획전 보러가기</a></div>
+                    </div>
+                    <div class="banner2 banner-box">
+                      <div class="banner-txt">
+                        <p class="banner-p">하얀 모래 맑은 바다에 닿다<br>나를 부르는 <span class="banner-span">나트랑</span></p>
+                      </div>
+                      <div class="banner-btndiv"><a href="#" class="banner-btn">기획전 보러가기</a></div>
+                    </div>
+                    <div class="banner3 banner-box">
+                      <div class="banner-txt">
+                        <p class="banner-p">하얀 모래 맑은 바다에 닿다<br>나를 부르는 <span class="banner-span">나트랑</span></p>
+                      </div>
+                      <div class="banner-btndiv"><a href="#" class="banner-btn">기획전 보러가기</a></div>
+                    </div>
+                    <div class="allow">
+                      <a href="#" class="prev"><img src="images/mainArrow.png"></a>
+                      <a href="#" class="next"><img src="images/mainArrow2.png"></a>
+                    </div>
+                  </Slider>
+                </div>
+        </section>
+        <!--배너-->
+
+        <section>
+            <div class="search-area">
+
+              <div class="search-bar">
+                <div class="month divbox">
+                  <div class="box">
+                    <div class="left">
+                      <p class="p-title">출발월</p>
+                      <p class="p-txt"><span class="span-txt font-weight-bold">08월</span><span class="notosans span-txt2">2019</span></p>
+                    </div>
+                    <div class="right">
+                      <a href="#" class="a-button"><img src="images/cancel.png"></a>
+                      <a href="#"><img src="images/blue_bottom_btn.png"></a>
+                    </div>
+                  </div>
+                  <div class="calendar">
+                    <div class="calendar-box">
+                      <div class="divbox2">
+                        <ul class="yy-mm">
+                          <li><a href="#"><img src="images/gray_triangle_prev.png" alt="이전"></a></li>
+                          <li class="li">2020. 02</li>
+                          <li><a href="#"><img src="images/black_triangle_next.png" alt="다음"></a></li>
+                        </ul>
+                      </div>
+                      <div class="day">
+                        <span class="span red-txt">S</span>
+                        <span class="span black-txt">M</span>
+                        <span class="span black-txt">T</span>
+                        <span class="span black-txt">W</span>
+                        <span class="span black-txt">T</span>
+                        <span class="span black-txt">F</span>
+                        <span class="span blue-txt">S</span>
+                      </div>
+                      <div class="date">
+                        <ul class="dd">
+                          <li class="li"></li>
+                          <li class="li"></li>
+                          <li class="li"></li>
+                          <li class="li"></li>
+                          <li class="li"></li>
+                          <li class="li"></li>
+                          <li class="li li-last"><a href="#" class="a">1</a></li>
+                        </ul>
+                        <ul class="dd">
+                          <li class="li"><a href="#" class="a">2</a></li>
+                          <li class="li"><a href="#" class="a">3</a></li>
+                          <li class="li"><a href="#" class="a">4</a></li>
+                          <li class="li"><a href="#" class="a">5</a></li>
+                          <li class="li"><a href="#" class="a">6</a></li>
+                          <li class="li"><a href="#" class="a">7</a></li>
+                          <li class="li li-last"><a href="#" class="a">8</a></li>
+                        </ul>
+                        <ul class="dd">
+                          <li class="li"><a href="#" class="a">9</a></li>
+                          <li class="li"><a href="#" class="a">10</a></li>
+                          <li class="li"><a href="#" class="a">11</a></li>
+                          <li class="li"><a href="#" class="a">12</a></li>
+                          <li class="li"><a href="#" class="a">13</a></li>
+                          <li class="li"><a href="#" class="a">14</a></li>
+                          <li class="li li-last"><a href="#" class="a">15</a></li>
+                        </ul>
+                        <ul class="dd">
+                          <li class="li"><a href="#" class="a">16</a></li>
+                          <li class="li"><a href="#" class="a">17</a></li>
+                          <li class="li"><a href="#" class="a">18</a></li>
+                          <li class="li"><a href="#" class="a">19</a></li>
+                          <li class="li"><a href="#" class="a">20</a></li>
+                          <li class="li"><a href="#" class="a">21</a></li>
+                          <li class="li li-last"><a href="#" class="a">22</a></li>
+                        </ul>
+                        <ul class="dd">
+                          <li class="li"><a href="#" class="a">23</a></li>
+                          <li class="li"><a href="#" class="a">24</a></li>
+                          <li class="li"><a href="#" class="a">25</a></li>
+                          <li class="li"><a href="#" class="a">26</a></li>
+                          <li class="li"><a href="#" class="a">27</a></li>
+                          <li class="li"></li>
+                          <li class="li li-last"></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="days divbox">
+                  <div class="box">
+                    <div class="left">
+                      <p class="p-title">출발공항</p>
+                      <p class="p-txt"><span class="span-txt font-weight-bold">인천공항</span><span class="notosans span-txt2">ICN</span></p>
+                    </div>
+                    <div class="right">
+                      <a href="#" class="a-button"><img src="images/cancel.png"></a>
+                      <a href="#"><img src="images/blue_bottom_btn.png"></a>
+                    </div>
+                  </div>
+                  <div class="box-1">
+                    <ul class="ul">
+                      <li class="li"><a href="#" class="a a-border">인천공항(ICN)</a></li>
+                      <li class="li"><a href="#" class="a a-border">인천공항(ICN)</a></li>
+                      <li class="li"><a href="#" class="a a-border">인천공항(ICN)</a></li>
+                      <li class="li"><a href="#" class="a">인천공항(ICN)</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="search divbox">
+                  <div class="box">
+                    <div class="left">
+                      <p class="p-title">일정</p>
+                      <p class="p-txt"><span class="span-txt font-weight-bold">4일</span><span class="notosans span-txt2">days</span></p>
+                    </div>
+                    <div class="right">
+                      <a href="#" class="a-button"><img src="images/cancel.png"></a>
+                      <a href="#"><img src="images/blue_bottom_btn.png"></a>
+                    </div>
+                  </div>
+                  <div class="box-2">
+                    <ul class="ul">
+                      <li class="li"><a href="#" class="a a-border">인천공항(ICN)</a></li>
+                      <li class="li"><a href="#" class="a a-border">인천공항(ICN)</a></li>
+                      <li class="li"><a href="#" class="a a-border">인천공항(ICN)</a></li>
+                      <li class="li"><a href="#" class="a">인천공항(ICN)</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="icn">
+                  <div class="box">
+                    <ul class="list-box">
+                      <li class="list-li list-li-first"><a href="#"><img src="images/search_blue.png"></a></li>
+                      <li class="list-li"><input name="search" type="text" maxlength="255" class="input-text" value="다낭여행 싸게 ㄱ" autofocus></li>
+                      <li class="list-li list-li-last"><a href="#"><img src="images/cancel2.png"></a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="search-btn">
+                  <a href="#" class="search-btn-a font-weight-bold">검색</a>
+                </div>
+              </div>
+
+            </div>
+        </section>
+      </div>
+
+      <div>
+        <section class="width1200">
+          <p class="center-text padding-80px-top padding-50px-bottom font-weight-bold notosans">SPECIAL CHANCE</p>
+          <div class="special">
+            <div class="tab">
+                <ul class="tab-list">
+                    <li class="tab-list-on"><a href="#" class="tab-list-a font-weight-bold">출발임박 특가 프로모션</a></li>
+                    <li class="tab-list-li"><a href="#" class="tab-list-a">조기마감 특가 패키지</a></li>
+                </ul>
+                <div class="tab-box">
+                    <div class="tab-info">
+                      <div class="tab-hbox">
+                        <a href="#">
+                          <div class="tab-txt">
+                            <ul class="tab-txt-ul">
+                              <li class="tab-txt-li"><span class="tab-txt-span span-black">임박</span></li>
+                              <li class="tab-txt-li"><span class="tab-txt-span span-blue">특가</span></li>
+                            </ul>
+                            <p class="tab-txt-p font-weight-bold">상품명<br>최저가</p>
+                          </div>
+                          <img src="images/special1.jpg">
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="tab-info">
+                      <div class="tab-hbox">
+                        <a href="#">
+                          <div class="tab-txt">
+                            <ul class="tab-txt-ul">
+                              <li class="tab-txt-li"><span class="tab-txt-span span-black">임박</span></li>
+                              <li class="tab-txt-li"><span class="tab-txt-span span-blue">특가</span></li>
+                            </ul>
+                            <p class="tab-txt-p font-weight-bold">상품명<br>최저가</p>
+                          </div>
+                          <img src="images/special2.jpg">
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="tab-info">
+                       <div class="tab-hbox">
+                         <a href="#">
+                           <div class="tab-txt">
+                             <ul class="tab-txt-ul">
+                               <li class="tab-txt-li"><span class="tab-txt-span span-black">임박</span></li>
+                               <li class="tab-txt-li"><span class="tab-txt-span span-blue">특가</span></li>
+                             </ul>
+                             <p class="tab-txt-p font-weight-bold">상품명<br>최저가</p>
+                           </div>
+                           <img src="images/special3.jpg">
+                         </a>
+                       </div>
+                    </div>
+                </div>
+                <!--//tab_box-->
+            </div>
+          </div>
+        </section>
+
+        <section class="width1200">
+          <p class="center-text padding-80px-top padding-70px-bottom font-weight-bold notosans">LOCAL TRIP</p>
+          <div class="localtrip">
+
+              <div class="sub-banner-area">
+                <!--<h2> Single Item</h2>-->
+                <Slider {...settings}>
+                  <div class="sub-banner">
+                    <div class="box">
+                      <div class="left">
+                        <a href="#"><img src="images/seafood.jpg"></a>
+                      </div>
+                      <div class="right">
+                        <span class="span-txt">02/09</span>
+                        <p class="p-txt font-weight-bold notosans">Fresh Seafood in Local</p>
+                        <div class="divbox">
+                          아기자기한 유럽 소도시 3국<br>
+                          베네룩스 가보셨나요?<br>
+                          치앙마이로 함께 떠나는 패키지 여행
+                        </div>
+                        <a href="#" class="a-txt"><span class="span-txt">Detail view</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="allow">
+                    <a href="#" class="prev"></a>
+                    <a href="#" class="next"></a>
+                  </div>
+                </Slider>
+              </div>
+
+          </div>
+        </section>
+
+        <section class="width1200">
+          <p class="center-text padding-80px-top padding-70px-bottom font-weight-bold notosans">BEST TRIP</p>
+          <div class="besttrip">
+            <div class="divbox">
+              <div class="div margin-20px-right">
+                <div class="box">
+                  <div class="imgbox"><img src="images/place3.jpg" alt="상품이미지"></div>
+                  <ul class="ul">
+                    <li class="li-point red-color margin-5px-right">MD추천</li>
+                    <li class="li-point purple-color margin-5px-right">MD추천</li>
+                    <li class="li-point green-color">MD추천</li>
+                  </ul>
+                  <div class="txtbox">
+                    <p class="p1">CPP1001203</p>
+                    <p class="p2">[오사카3일][스마트연합]온천체험포함♨/오사카,교토,고베+ 마시자 가자···</p>
+                    <p class="p3">MD 강력추천! 바나힐 국립공원+반나절 투어 ···</p>
+                    <p class="p4">#날씨좋아 #비그만</p>
+                    <p class="p5">200,000<span class="span">원</span> ~ 400,000<span class="span">원</span></p>
+                  </div>
+                </div>
+              </div>
+              <!--//1-->
+              <div class="div margin-20px-right">
+                <div class="box">
+                  <div class="imgbox"><img src="images/place3.jpg" alt="상품이미지"></div>
+                  <ul class="ul">
+                    <li class="li-point red-color margin-5px-right">MD추천</li>
+                    <li class="li-point purple-color margin-5px-right">MD추천</li>
+                    <li class="li-point green-color">MD추천</li>
+                  </ul>
+                  <div class="txtbox">
+                    <p class="p1">CPP1001203</p>
+                    <p class="p2">[오사카3일][스마트연합]온천체험포함♨/오사카,교토,고베+ 마시자 가자···</p>
+                    <p class="p3">MD 강력추천! 바나힐 국립공원+반나절 투어 ···</p>
+                    <p class="p4">#날씨좋아 #비그만</p>
+                    <p class="p5">200,000<span class="span">원</span> ~ 400,000<span class="span">원</span></p>
+                  </div>
+                </div>
+              </div>
+              <!--//2-->
+              <div class="div margin-20px-right">
+                <div class="box">
+                  <div class="imgbox"><img src="images/place3.jpg" alt="상품이미지"></div>
+                  <ul class="ul">
+                    <li class="li-point red-color margin-5px-right">MD추천</li>
+                    <li class="li-point purple-color margin-5px-right">MD추천</li>
+                    <li class="li-point green-color">MD추천</li>
+                  </ul>
+                  <div class="txtbox">
+                    <p class="p1">CPP1001203</p>
+                    <p class="p2">[오사카3일][스마트연합]온천체험포함♨/오사카,교토,고베+ 마시자 가자···</p>
+                    <p class="p3">MD 강력추천! 바나힐 국립공원+반나절 투어 ···</p>
+                    <p class="p4">#날씨좋아 #비그만</p>
+                    <p class="p5">200,000<span class="span">원</span> ~ 400,000<span class="span">원</span></p>
+                  </div>
+                </div>
+              </div>
+              <!--//3-->
+              <div class="div">
+                <div class="box">
+                  <div class="imgbox"><img src="images/place3.jpg" alt="상품이미지"></div>
+                  <ul class="ul">
+                    <li class="li-point red-color margin-5px-right">MD추천</li>
+                    <li class="li-point purple-color margin-5px-right">MD추천</li>
+                    <li class="li-point green-color">MD추천</li>
+                  </ul>
+                  <div class="txtbox">
+                    <p class="p1">CPP1001203</p>
+                    <p class="p2">[오사카3일][스마트연합]온천체험포함♨/오사카,교토,고베+ 마시자 가자···</p>
+                    <p class="p3">MD 강력추천! 바나힐 국립공원+반나절 투어 ···</p>
+                    <p class="p4">#날씨좋아 #비그만</p>
+                    <p class="p5">200,000<span class="span">원</span> ~ 400,000<span class="span">원</span></p>
+                  </div>
+                </div>
+              </div>
+              <!--//4-->
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="eventzone">
+            <p class="title font-weight-bold notosans">EVENT ZONE</p>
+            <div class="full-banner">
+              <div class="txt-box">
+                <div class="box">
+                  <p class="p-txt title-txt font-weight-bold notosans">BEST REAL TRIP</p>
+                  <div class="divbox">
+                    서핑보드 즐겨보셨나요?<br>
+                    세부가면 즐길 수 있는 특별한 액티비티!<br>
+                    지금 예약하시면 서핑 무료 강습!
+                  </div>
+                  <a href="#" class="a-txt"><span class="span-txt">Detail Event</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="width1200">
+          <p class="center-text padding-80px-top padding-50px-bottom font-weight-bold notosans">REVIEW FOR INSTAGRAM</p>
+          <div class="insta">
+            <div class="insta-list">
+              <ul class="insta-list-ul">
+                <li class="insta-list-li"><a href="#"><img src="images/insta1.jpg"></a></li>
+                <li class="insta-list-li">
+                  <a href="#" class="box">
+                    <div class="divbox">
+                      <span class="plus"></span>
+                      <p class="txt">
+                        <span class="span-txt font-weight-bold">당신도 인스타의 주인공이 되어보세요!</span><br>
+                        # 아임트립 #여행 # 태그를 # 걸어주세요
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="insta-list-li margin-0px-bottom"><a href="#"><img src="images/insta2.jpg"></a></li>
+              </ul>
+              <ul class="insta-list-ul">
+                <li class="insta-list-li"><a href="#"><img src="images/insta3.jpg"></a></li>
+                <li class="insta-list-li"><a href="#"><img src="images/insta4.jpg"></a></li>
+                <li class="insta-list-li margin-0px-bottom">
+                  <a href="#" class="box2">
+                    <div class="divbox2">
+                        <p class="txt font-weight-bold">
+                          5월의 핫 여름 여행지<br>인스타 BEST 3 순위<br>
+                          <span class="arrow">→</span>
+                        </p>
+                    </div>
+                    <img src="images/insta5.jpg">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="inner">
+        <div class="address">
+          <p class="address-p">
+            서울특별시 중구 태평로 2가 55 (우)042598 Tel. 1544. 3336 reservation@imtrip.co.kr<br>
+            통신판매신고번호 중구 0623호 (주)아임트립 대표이사 음두경 사업자등록번호 102-83-94821, (주)아임트립 관리자 리브햇 사업자등록번호 : 583-84-01183
+          </p>
+        </div>
+        <ul class="footer-menu">
+          <li class="footer-menu-li"><a href="#" class="menu-a-first footer-menu-a">Customer Center</a></li>
+          <li class="footer-menu-li footer-menu-before"><a href="#" class="menu-a footer-menu-a">개인정보처리방침</a></li>
+          <li class="footer-menu-li footer-menu-before"><a href="#" class="menu-a footer-menu-a">이용약관</a></li>
+          <li class="footer-menu-li footer-menu-before"><a href="#" class="menu-a footer-menu-a">이메일 무단 수집금지</a></li>
+          <li class="footer-menu-li"><a href="#" class="menu-a-last footer-menu-a">Family Site</a></li>
+        </ul>
+        <p class="copy">Copylight 2019 'imtrip Co. All right reserved.</p>
+      </div>
+    </footer>
+
+
+  </div>
+
+</body>
+</html>

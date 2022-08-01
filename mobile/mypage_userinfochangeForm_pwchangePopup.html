@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IMTRIP</title>
+  <!--css-->
+  <link rel='stylesheet' href='css/reset.css'>
+  <link rel='stylesheet' href='css/common.css'>
+  <link rel='stylesheet' href='css/index.css'>
+  <!--Import -->
+  <script type='text/javascript' src='js/jquery-1.12.3.min.js'></script>
+  <script type='text/javascript' src='js/common.js'></script>
+</head>
+<body>
+<div id="wrapper" class="blue">
+    <div class="login_container container"><!--마이페이지 로그인컨테이너 정보수정(비밀번호 재설정)관련 팝업-->
+        <section class='login_util_popup_area pw_change'><!--로그인유틸팝업(암호변화)-->
+            <p class='tit'>
+                <span class='txt'>비밀번호 재설정</span>
+                <img src='images/close_btn.svg' alt='' class='close_btn'>
+            </p>
+            <form action='' class='pw_change_form'>
+                <article class='find_method pw_change_method_addons'><!--기존 찾기메서드(유틸기능)>>암호변경메서드에드온 덮어쓰기-->
+                    <p class='txt padding-top-0 display_none'>등록된 정보로 찾기</p>
+                    <p class='info_row'>
+                        <span class='form_label'>기존 비밀번호</span>
+                        <input type='text' class='input_text_block'placeholder='비밀번호를 입력해주세요' name='mem_pwd_original'>
+                    </p>
+                    <p class='info_row'>
+                        <span class='form_label'>변경 비밀번호</span>
+                        <span class='pwd_input_wrap'>
+                            <input type='text' class='input_text_block' name='mem_pwd_new1' placeholder='비밀번호를 입력해주세요'>
+                            <span class='pwd_check_element'>
+                                <img src='images/pwd_chk_pass.svg' alt='' class='pwd_check_pass'>
+                                <img src='images/pwd_chk_fail.svg' alt='' class='pwd_check_fail display_none'>
+                            </span>
+                        </span>
+                    </p>
+                    <p class='invalid_error_message_print ver2 margin-bottom-10px'>최소 8자리 이상, 영어 대문자, 소문자, 숫자,특수문자 중 2종류 조합해 주세요</p>
+                    <p class='info_row'>
+                        <span class='form_label'>변경 비밀번호 재입력</span>
+                        <span class='pwd_input_wrap'>
+                            <input type='text' class='input_text_block' name='mem_pwd_new2' placeholder='비밀번호를 다시 입력해주세요'>
+                            <span class='pwd_check_element'>
+                                <img src='images/pwd_chk_pass.svg' alt='' class='pwd_check_pass display_none'>
+                                <img src='images/pwd_chk_fail.svg' alt='' class='pwd_check_fail'>
+                            </span>
+                        </span>
+                    </p>
+                    <p class='invalid_error_message_print ver2'>최소 8자리 이상, 영어 대문자, 소문자, 숫자,특수문자 중 2종류 조합해 주세요</p>
+
+                    <div class='button_wrap'>
+                        <button class='submit_btn'>변경하기</button>
+                    </div>
+                    <p class='message display_none'>
+                        <span class='padding_left_area'>
+                            <span class='dot'></span>
+                        </span>
+                        본인 인증을 통한 회원 가입을 하지 않은 경우 본인 인증 수단으로 찾기 또는 변경이 불가능 할 수 있습니다.
+                    </p>
+                    <p class='message margin-top-0 display_none'>
+                        <span class='padding_left_area'>
+                            <span class='dot'></span>
+                        </span>
+                        사이트 가입정보와 휴대폰 가입정보가 일치 하지 않을 경우 인증이 불가능 할 수 있습니다.
+                    </p>
+                </article>
+            </form>
+        </section>
+    </div><!--login_container -->
+</div><!--최상위 wrap-->
+</body>
+</html>
